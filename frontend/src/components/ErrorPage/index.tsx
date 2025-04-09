@@ -14,7 +14,7 @@ export default function ErrorPage() {
     <div className="page">
       <section id={styles.errorPage}>
         <Logo isError={true} />
-        <h2>OOPS! Something went wrong.</h2>
+        <h2>OOPS! Something went wrong !!.</h2>
 
         <p>{error?.response?.data}</p>
 
